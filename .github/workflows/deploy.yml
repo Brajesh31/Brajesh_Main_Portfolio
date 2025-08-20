@@ -31,6 +31,6 @@ jobs:
         with:
           server: 157.173.208.175
           username: u288920822.brajesh
-          password: bk@31012004
+          password: Bk@31012004
           server-dir: domains/edtech-community.com/public_html/
           local-dir: ./dist/
