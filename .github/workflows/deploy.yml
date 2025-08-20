@@ -27,7 +27,7 @@ jobs:
       - name: Deploy dist folder via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.edtech-community.com
+          server: ftp://157.173.208.175
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
