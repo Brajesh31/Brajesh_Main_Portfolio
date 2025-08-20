@@ -30,6 +30,6 @@ jobs:
           server: ftp.edtech-community.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist
-          server-dir: /home/u288920822/domains/edtech-community.com/public_html
+          local-dir: ./dist/
+          server-dir: /home/u288920822/domains/edtech-community.com/public_html/
           port: 21
