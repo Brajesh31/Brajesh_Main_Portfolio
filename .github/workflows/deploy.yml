@@ -23,6 +23,8 @@ jobs:
 
       - name: 🏗️ Build project
         run: npm run build
+      - name: List dist contents
+        run: ls -la ./dist/
 
       - name: 🚀 Upload to Hostinger via FTP
         uses: samkirkland/ftp-deploy-action@v4.3.4
