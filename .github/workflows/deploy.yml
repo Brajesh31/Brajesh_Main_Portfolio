@@ -30,7 +30,7 @@ jobs:
         uses: samkirkland/ftp-deploy-action@v4.3.4
         with:
           server: 157.173.208.175
-          username: u288920822.brajesh
+          username: u288920822
           password: Bk@31012004
           server-dir: domains/edtech-community.com/public_html/
           local-dir: ./dist/
