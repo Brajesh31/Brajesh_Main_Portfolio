@@ -162,7 +162,7 @@ const Certificates = () => {
   const [selectedCertificate, setSelectedCertificate] = useState<any>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const certificatesPerPage = 12;
+  const certificatesPerPage = 30;
 
   // Filter certificates based on search query
   const filteredCertificates = certificates.filter(cert => 
