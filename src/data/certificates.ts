@@ -50,8 +50,9 @@ import bitcoinForDevelopers1 from '../assets/CS120 Bitcoin for Developers I.jpg'
 import operatingSystems from '../assets/CS401 Operating Systems.jpg';
 import modernDatabaseSystems from '../assets/CS403 Introduction to Modern Database Systems.jpg';
 import introToComputerScience1 from '../assets/CS101 Introduction to Computer Science I.jpg';
-
-
+import introToComputerScience2 from '../assets/CS102 Introduction to Computer Science II.jpg';
+import introductionToPython from '../assets/CS105 Introduction to Python.jpg';
+import cPlusPlusProgramming from '../assets/CS107 C++ Programming.jpg';
 
 
 
@@ -577,6 +578,46 @@ export const certificates = [
     date: "August 2024",
     credentialId: "1566973962BK",
     image: introToComputerScience1,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "52",
+    title: "CS102: Introduction to Computer Science II",
+    issuer: "Saylor Academy",
+    date: "May 2024",
+    credentialId: "9486380374BK",
+    image: introToComputerScience2,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "52",
+    title: "CS102: Introduction to Computer Science II",
+    issuer: "Saylor Academy",
+    date: "May 2024",
+    credentialId: "9486380374BK",
+    image: introToComputerScience2,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "53",
+    title: "CS105: Introduction to Python",
+    issuer: "Saylor Academy",
+    date: "May 2024",
+    credentialId: "6813495047BK",
+    image: introductionToPython,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "54",
+    title: "CS107: C++ Programming",
+    issuer: "Saylor Academy",
+    date: "May 2024",
+    credentialId: "6237346502BK",
+    image: cPlusPlusProgramming,
     featured: false,
     keywords: globalKeywords.slice(0, 533)
   }
