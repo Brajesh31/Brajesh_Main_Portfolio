@@ -25,7 +25,7 @@ jobs:
         run:  npm audit fix --force
 
       - name: Generate Sitemap
-        run: node generate-sitemap.mjs
+        run: npm run sitemap
 
       - name: Run build
         run: npm run build

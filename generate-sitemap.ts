@@ -1,6 +1,9 @@
-// generate-sitemap.mjs
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import { SitemapStream, streamToPromise } from 'sitemap';
+import { createWriteStream } from 'fs';
+import path from 'path';
+
+// Your sitemap generation code here
 
 // Example URLs, replace with your routes or dynamic generation
 const urls = [
