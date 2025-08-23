@@ -20,9 +20,20 @@ import dataScienceFoundationsLevel1 from '../assets/Data Science Foundations - L
 import dataScienceMethodologies from '../assets/Data Science Methodologies.jpg';
 import pythonForDataScience from '../assets/Python for Data Science.jpg';
 import dataScienceTools from '../assets/Data Science Tools.jpg';
-
-
-
+import metasploitFromScratch from '../assets/Metasploit from Scratch Beginner to Professional.jpg';
+import pandasBootcamp from '../assets/Pandas Bootcamp Data Analysis with Pandas and Python3.jpg';
+import ethicalAiModernBusiness from '../assets/Ethical AI and Its Implications for Modern Business 2.0.jpg';
+import awsSolutionsArchitectureJobSim from '../assets/AWS Solutions Architecture Job Simulation.jpg';
+import goldmanSachsSoftwareJobSim from '../assets/Goldman Sachs Software Engineering Job Simulation.jpg';
+import oracleAiVectorSearchProfessional from '../assets/Oracle AI Vector Search Certified Professional.jpg';
+import oracleFusionAiAgentStudio from '../assets/Oracle Fusion AI Agent Studio Foundations Associate - Rel 1.jpg';
+import puttingAiToWorkMasterclass from '../assets/Putting AI to Work Masterclass.jpg';
+import dataScienceToolsCognitiveClass from '../assets/Data Science Tools Cognitive Class.jpg';
+import dataScience101 from '../assets/Data Science 101.jpg';
+import dataScienceMethodologyCognitiveClass from '../assets/Data Science Methodology.jpg';
+import sqlAndRelationalDatabases101 from '../assets/SQL and Relational Databases 101.jpg';
+import artOfPromptEngineering from '../assets/The Art of Prompt Engineering.jpg';
+import python101ForDataScience from '../assets/Python 101 for Data Science.jpg';
 
 
 
@@ -244,6 +255,146 @@ export const certificates = [
     date: "July 2024",
     credentialId: "cba4e940-8457-4e99-984b-56c6cc35f9e3",
     image: dataScienceTools,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "21",
+    title: "Metasploit from Scratch: Beginner to Professional",
+    issuer: "Udemy",
+    date: "March 2025",
+    credentialId: "UC-20511782-9807-4004-b65d-b87d7d0943b5",
+    image: metasploitFromScratch,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "22",
+    title: "Pandas Bootcamp: Data Analysis with Pandas & Python3",
+    issuer: "Udemy",
+    date: "March 2025",
+    credentialId: "UC-19187042-b451-4a32-b357-83d402ace15a",
+    image: pandasBootcamp,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "23",
+    title: "Ethical AI and Its Implications for Modern Business 2.0",
+    issuer: "Udemy",
+    date: "March 2025",
+    credentialId: "UC-cb5cfe0c-0859-4563-b348-467718e121f9",
+    image: ethicalAiModernBusiness,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "24",
+    title: "AWS Solutions Architecture Job Simulation",
+    issuer: "Forage",
+    date: "March 2025",
+    credentialId: "KuL5Gy2Xm45XuFXhZ",
+    image: awsSolutionsArchitectureJobSim,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "25",
+    title: "Goldman Sachs Software Engineering Job Simulation",
+    issuer: "Forage",
+    date: "March 2025",
+    credentialId: "g5sno7hGQtPfLJrrb",
+    image: goldmanSachsSoftwareJobSim,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "26",
+    title: "Oracle AI Vector Search Certified Professional",
+    issuer: "Oracle University",
+    date: "August 2025",
+    credentialId: "102309761DB23AIOCP",
+    image: oracleAiVectorSearchProfessional,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "27",
+    title: "Oracle Fusion AI Agent Studio Foundations Associate - Rel 1",
+    issuer: "Oracle University",
+    date: "August 2025",
+    credentialId: "102309761OFAASOFA",
+    image: oracleFusionAiAgentStudio,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "28",
+    title: "Putting AI to Work Masterclass (Salesforce & upGrad)",
+    issuer: "upGrad",
+    date: "February 2025",
+    credentialId: "PUTTINGAITOWORK-28",
+    image: puttingAiToWorkMasterclass,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "29",
+    title: "Data Science Tools",
+    issuer: "Cognitive Class (IBM)",
+    date: "2025", // <-- Please provide the date for this certificate
+    credentialId: "DATASCIENCETOOLS-CC-29",
+    image: dataScienceToolsCognitiveClass,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "30",
+    title: "Data Science 101",
+    issuer: "Cognitive Class",
+    date: "July 2024",
+    credentialId: "22356a25de854b7182b86bdb0c14c396",
+    image: dataScience101,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "31",
+    title: "Data Science Methodology",
+    issuer: "Cognitive Class",
+    date: "July 2024",
+    credentialId: "ddeeed19108a4fd696fc76f570e22013",
+    image: dataScienceMethodologyCognitiveClass,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "32",
+    title: "SQL and Relational Databases 101",
+    issuer: "Cognitive Class",
+    date: "June 2024",
+    credentialId: "88e8fe08cc2d4bf494a8433ff36ad0d9",
+    image: sqlAndRelationalDatabases101,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "33",
+    title: "The Art of Prompt Engineering",
+    issuer: "Cognitive Class",
+    date: "June 2024",
+    credentialId: "c6d5a645dbb44fbbb2cf023fa09ef26f",
+    image: artOfPromptEngineering,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "34",
+    title: "Python 101 for Data Science",
+    issuer: "Cognitive Class",
+    date: "May 2024",
+    credentialId: "b500f8532962482aaef7003810300574",
+    image: python101ForDataScience,
     featured: true,
     keywords: globalKeywords.slice(0, 533)
   }
