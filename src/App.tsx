@@ -1,5 +1,5 @@
 // SEO keywords globally merged by Bolt AI on 2025-01-27 for maximum ranking – excludes milestone page
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './components/ThemeProvider';
 import { AnimatedBackground } from './components/AnimatedBackground';
