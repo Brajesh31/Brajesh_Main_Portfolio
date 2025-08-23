@@ -1,8 +1,19 @@
+# Disable MultiViews to prevent Apache from serving partial matches
+Options -MultiViews
+
+# Enable URL rewriting
 RewriteEngine On
 RewriteBase /
-# Don't rewrite files or directories
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-# Rewrite everything else to index.html to allow html5 state links
-RewriteRule ^ index.html [L]
 
+# Don't rewrite existing files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite all other requests to index.html for React Router
+RewriteRule ^ index.html [QSA,L]
+
+# Optional: Cache static assets for performance (1 week)
+<FilesMatch "\.(js|css|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$">
+  Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
