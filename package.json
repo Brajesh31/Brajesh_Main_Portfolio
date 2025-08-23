@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server/index.js",
-    "sitemap": "node --loader ts-node/esm --tsconfig tsconfig.sitemap.json generate-sitemap.ts",
+    "sitemap": "ts-node-esm generate-sitemap.ts",
     "dev:server": "nodemon server/index.js",
     "dev:full": "concurrently \"npm run dev\" \"npm run dev:server\""
   },
