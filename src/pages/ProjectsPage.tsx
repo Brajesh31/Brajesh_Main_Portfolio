@@ -49,13 +49,13 @@ const ProjectsPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Projects",
-        "item": "https://brajeshkumar.dev/#/projects"
+        "item": "https://edtech-community.com/projects"
       }
     ]
   };
@@ -66,7 +66,7 @@ const ProjectsPage = () => {
         title="Brajesh Kumar Projects | EdTech-Community | AI, Machine Learning, Google Cloud, Azure, Firebase, Kong & Full Stack Development Portfolio"
         description="Explore 100+ projects by Brajesh Kumar, EdTech-Community founder including AI assistants, machine learning applications, Google Cloud, Azure, Firebase, Kong solutions, React web apps, and Python tools. Featured projects: Emma AI Assistant, Thea AI Therapist, SEMAC."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/projects"
+        url="https://edtech-community.com/projects"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

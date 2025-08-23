@@ -36,13 +36,13 @@ const BlogsPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blogs",
-        "item": "https://brajeshkumar.dev/#/blogs"
+        "item": "https://edtech-community.com/blogs"
       }
     ]
   };
@@ -53,7 +53,7 @@ const BlogsPage = () => {
         title="Brajesh Kumar Blog | EdTech-Community | AI, Machine Learning, Google Cloud, Azure, Firebase, Kong & Web Development Insights"
         description="Read Brajesh Kumar's blog featuring insights on AI events, machine learning tutorials, Google Cloud, Azure, Firebase, Kong solutions, web development tips, EdTech-Community initiatives, and tech industry experiences. Latest posts on OpenAI Academy, AI summits, and more."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/blogs"
+        url="https://edtech-community.com/blogs"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

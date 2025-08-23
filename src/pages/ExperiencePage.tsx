@@ -50,13 +50,13 @@ const ExperiencePage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Experience",
-        "item": "https://brajeshkumar.dev/#/experience"
+        "item": "https://edtech-community.com/experience"
       }
     ]
   };
@@ -67,7 +67,7 @@ const ExperiencePage = () => {
         title="Brajesh Kumar Experience | EdTech-Community founder | Campus Ambassador & Student Leadership Roles"
         description="Professional experience of Brajesh Kumar including EdTech-Community founder, Campus Ambassador roles at IIT Madras, IIT Delhi, IIT Roorkee, IMUNA, and academic journey at GL Bajaj Group of Institutions with focus on AI, Google Cloud, Azure, Firebase, Kong technologies."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/experience"
+        url="https://edtech-community.com/experience"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

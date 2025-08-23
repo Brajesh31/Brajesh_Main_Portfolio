@@ -42,13 +42,13 @@ const ServicesPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "https://brajeshkumar.dev/#/services"
+        "item": "https://edtech-community.com/services"
       }
     ]
   };
@@ -59,7 +59,7 @@ const ServicesPage = () => {
         title="Brajesh Kumar Services | EdTech-Community | AI Development, Google Cloud, Azure, Firebase, Kong, Full Stack & UI/UX Design Services"
         description="Professional services by Brajesh Kumar, EdTech-Community founder: AI development, machine learning solutions, Google Cloud, Azure, Firebase, Kong implementations, full stack web development, React.js applications, Python automation, and UI/UX design. Available for global freelance projects."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/services"
+        url="https://edtech-community.com/services"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

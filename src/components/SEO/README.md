@@ -25,9 +25,9 @@
 
 ### 1. Google Search Console Setup
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add property: `https://brajeshkumar.dev`
+2. Add property: `https://edtech-community.com`
 3. Verify ownership using HTML file method
-4. Submit sitemap: `https://brajeshkumar.dev/sitemap.xml`
+4. Submit sitemap: `https://edtech-community.com/sitemap.xml`
 
 ### 2. Bing Webmaster Tools
 1. Go to [Bing Webmaster Tools](https://www.bing.com/webmasters)

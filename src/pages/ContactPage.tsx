@@ -39,13 +39,13 @@ const ContactPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Contact",
-        "item": "https://brajeshkumar.dev/#/contact"
+        "item": "https://edtech-community.com/contact"
       }
     ]
   };
@@ -56,7 +56,7 @@ const ContactPage = () => {
         title="Contact Brajesh Kumar | EdTech-Community | Hire AI Engineer, Google Cloud, Azure, Firebase, Kong & Full Stack Developer"
         description="Get in touch with Brajesh Kumar, EdTech-Community founder for freelance projects, AI development, Google Cloud, Azure, Firebase, Kong solutions, full stack development, and UI/UX design services. Available for global collaborations and remote work."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/contact"
+        url="https://edtech-community.com/contact"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

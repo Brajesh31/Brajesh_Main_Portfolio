@@ -464,13 +464,13 @@ const MilestonePage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Milestones",
-        "item": "https://brajeshkumar.dev/#/milestones"
+        "item": "https://edtech-community.com/milestones"
       }
     ]
   };
@@ -481,7 +481,7 @@ const MilestonePage = () => {
         title="Brajesh Kumar Milestones & Project Resources | EdTech-Community | Professional Journey Timeline"
         description="Explore Brajesh Kumar's professional milestones, achievements, and comprehensive project resources as EdTech-Community founder. Timeline includes AI events, campus ambassador roles, Google Cloud, Azure, Firebase, Kong implementations, 100+ projects, and career highlights from 2020-2025."
         keywords="Brajesh Kumar milestones, EdTech-Community timeline, professional timeline, project resources, achievements, campus ambassador, AI events, OpenAI Academy, SSOC contributor, career journey, project portfolio, Google Cloud, Azure, Firebase, Kong"
-        url="https://brajeshkumar.dev/#/milestones"
+        url="https://edtech-community.com/milestones"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container-section">

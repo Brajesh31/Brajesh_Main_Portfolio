@@ -42,13 +42,13 @@ const AboutPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "About",
-        "item": "https://brajeshkumar.dev/#/about"
+        "item": "https://edtech-community.com/about"
       }
     ]
   };
@@ -59,7 +59,7 @@ const AboutPage = () => {
         title="About Brajesh Kumar | EdTech-Community founder, AI Engineer & Full Stack Developer Background"
         description="Learn about Brajesh Kumar's journey as an AI Engineer, EdTech-Community founder, and Full Stack Developer. Computer Science student at GL Bajaj with expertise in Google Cloud, Azure, Firebase, Kong, React, Python, Machine Learning, and 100+ projects."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/about"
+        url="https://edtech-community.com/about"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

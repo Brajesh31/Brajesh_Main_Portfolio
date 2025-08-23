@@ -2075,7 +2075,7 @@ export const resources: Resource[] = [
     year: '2025',
     icon: '🌐',
     tags: ['Portfolio', 'Website', 'React', 'TypeScript', 'Professional'],
-    url: 'https://brajeshkumar.dev'
+    url: 'https://edtech-community.com/'
   }
 ];
 

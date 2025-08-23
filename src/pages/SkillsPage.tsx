@@ -62,13 +62,13 @@ const SkillsPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Skills",
-        "item": "https://brajeshkumar.dev/#/skills"
+        "item": "https://edtech-community.com/skills"
       }
     ]
   };
@@ -79,7 +79,7 @@ const SkillsPage = () => {
         title="Brajesh Kumar Skills | EdTech-Community | AI, Machine Learning, React, Python, Google Cloud, Azure, Firebase, Kong & Full Stack Technologies"
         description="Comprehensive overview of Brajesh Kumar's technical skills including AI/ML, React.js, Python, Node.js, Google Cloud, Azure, Firebase, Kong, UI/UX design, cloud technologies, and 100+ certifications. EdTech-Community founder expertise."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/skills"
+        url="https://edtech-community.com/skills"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">

@@ -374,17 +374,17 @@ function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Brajesh Kumar Portfolio | EdTech-Community",
-    "url": "https://brajeshkumar.dev",
+    "url": "https://edtech-community.com/",
     "description": "Professional portfolio of Brajesh Kumar - AI Engineer, EdTech-Community founder, Full Stack Developer, and UI/UX Designer specializing in Google Cloud, Azure, Firebase, Kong",
     "author": {
       "@type": "Person",
       "name": "Brajesh Kumar",
       "jobTitle": "AI Engineer, Full Stack Developer, EdTech Community Builder",
-      "url": "https://brajeshkumar.dev"
+      "url": "https://edtech-community.com"
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://brajeshkumar.dev/#/projects?search={search_term_string}",
+      "target": "https://edtech-community.com/projects?search={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -397,7 +397,7 @@ function HomePage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com//"
       }
     ]
   };

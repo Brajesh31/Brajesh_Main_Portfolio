@@ -224,13 +224,13 @@ const ProfilesPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Profiles",
-        "item": "https://brajeshkumar.dev/#/profiles"
+        "item": "https://edtech-community.com/profiles"
       }
     ]
   };
@@ -241,7 +241,7 @@ const ProfilesPage = () => {
         title="Brajesh Kumar Profiles | EdTech-Community | GitHub, LinkedIn, CodeChef, HackerRank, Google Cloud, Azure & More"
         description="Connect with Brajesh Kumar, EdTech-Community founder across various platforms including GitHub, LinkedIn, CodeChef, HackerRank, Google Cloud, Azure, Coursera, and other professional and learning platforms. View coding profiles, cloud certifications, and achievements."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/profiles"
+        url="https://edtech-community.com/profiles"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container-section">

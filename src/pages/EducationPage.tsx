@@ -47,13 +47,13 @@ const EducationPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtech-community.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Education",
-        "item": "https://brajeshkumar.dev/#/education"
+        "item": "https://edtech-community.com/education"
       }
     ]
   };
@@ -64,7 +64,7 @@ const EducationPage = () => {
         title="Brajesh Kumar Education | EdTech-Community | B.Tech CSE at GL Bajaj Group of Institutions"
         description="Educational background of Brajesh Kumar, EdTech-Community founder - Currently pursuing B.Tech in Computer Science and Engineering at GL Bajaj Group of Institutions (2023-2027) with focus on AI, Machine Learning, Google Cloud, Azure, Firebase, Kong. Academic achievements and qualifications."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/education"
+        url="https://edtech-community.com/education"
         structuredData={[structuredData, breadcrumbData]}
       />
       <section className="container mx-auto px-4 py-16">

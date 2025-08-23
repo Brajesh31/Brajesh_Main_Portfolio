@@ -61,13 +61,13 @@ const CertificatesPage = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://brajeshkumar.dev/"
+        "item": "https://edtechcommunity.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Certificates",
-        "item": "https://brajeshkumar.dev/#/certificates"
+        "item": "https://edtechcommunity.com/certificates"
       }
     ]
   };
@@ -78,7 +78,7 @@ const CertificatesPage = () => {
         title="Brajesh Kumar Certificates | EdTech-Community | 100+ Professional Certifications & Achievements"
         description="View Brajesh Kumar's professional certificates and achievements including Coursera certifications, IBM credentials, Google Cloud certifications, Azure certifications, Firebase certifications, Kong certifications, and specialized training in AI, web development, and design for EdTech-Community."
         keywords={globalKeywords}
-        url="https://brajeshkumar.dev/#/certificates"
+        url="https://edtechcommunity.com/certificates"
         structuredData={[structuredData, breadcrumbData]}
       />
       <div className="container mx-auto px-4 py-16">
