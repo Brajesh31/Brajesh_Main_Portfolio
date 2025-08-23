@@ -1,34 +1,40 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import { SitemapStream, streamToPromise } from 'sitemap';
+import { createWriteStream } from 'fs';
+import { resolve } from 'path';
 
-// List all your site URLs here
-const urls = [
-    'https://edtech-community.com/',
-    'https://edtech-community.com/about',
-    'https://edtech-community.com/contact',
-    'https://edtech-community.com/projects'
-];
+async function generateSitemap() {
+    const sitemapStream = new SitemapStream({ hostname: 'https://edtech-community.com' });
+    const writeStream = createWriteStream(resolve('./public/sitemap.xml'));
 
-// Generate XML sitemap
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${urls
-    .map(
-        url => `
-  <url>
-    <loc>${url}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>`
-    )
-    .join('')}
-</urlset>`;
+    sitemapStream.pipe(writeStream);
 
-// Ensure public folder exists
-const publicDir = path.join(__dirname, 'public');
-if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true });
+    // Add your React Router paths here
+    const routes = [
+        '/',
+        '/about',
+        '/education',
+        '/experience',
+        '/profiles',
+        '/projects',
+        '/certificates',
+        '/skills',
+        '/services',
+        '/blogs',
+        '/contact',
+        '/milestones',
+    ];
 
-// Write sitemap.xml
-fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemap);
+    routes.forEach((route) =>
+        sitemapStream.write({ url: route, changefreq: 'weekly', priority: 0.7 })
+    );
 
-console.log('✅ Sitemap generated successfully!');
+    sitemapStream.end();
+
+    await streamToPromise(sitemapStream);
+    console.log('✅ Sitemap generated at ./public/sitemap.xml');
+}
+
+generateSitemap().catch((error) => {
+    console.error('Failed to generate sitemap:', error);
+    process.exit(1);
+});
