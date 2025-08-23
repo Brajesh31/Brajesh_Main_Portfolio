@@ -20,7 +20,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install 
-        
+
+      - name: Sitemap
+        run: npm run sitemap
+
       - name: fix dependencies
         run:  npm audit fix --force
 
