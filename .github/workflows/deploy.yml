@@ -22,7 +22,10 @@ jobs:
         run: npm install 
         
       - name: fix dependencies
-        run:  npm audit fix --force 
+        run:  npm audit fix --force
+
+      - name: Generate Sitemap
+        run: node generate-sitemap.js
 
       - name: Run build
         run: npm run build
