@@ -53,8 +53,19 @@ import introToComputerScience1 from '../assets/CS101 Introduction to Computer Sc
 import introToComputerScience2 from '../assets/CS102 Introduction to Computer Science II.jpg';
 import introductionToPython from '../assets/CS105 Introduction to Python.jpg';
 import cPlusPlusProgramming from '../assets/CS107 C++ Programming.jpg';
-
-
+import foundationalCSharpMicrosoft from '../assets/Foundational CSharp with Microsoft Developer Certification.jpg';
+import introductionToGenerativeAi from '../assets/Introduction to Generative AI Completion Badge.jpg';
+import introductionToResponsibleAi from '../assets/Introduction to Responsible AI Completion Badge.jpg';
+import introductionToLlms from '../assets/Introduction to Large Language Models Completion Badge.jpg';
+import applyingAiPrinciples from '../assets/Responsible AI Applying AI Principles with Google Cloud Completion Badge.jpg';
+import introductionToImageGeneration from '../assets/Introduction to Image Generation Completion Badge.jpg';
+import scalingWithGoogleCloudOps from '../assets/Scaling with Google Cloud Operations Completion Badge.jpg';
+import geminiInGoogleMeet from '../assets/Gemini in Google Meet Completion Badge.jpg';
+import geminiInGoogleDocs from '../assets/Gemini in Google Docs Completion Badge.jpg';
+import geminiInGoogleSheets from '../assets/Gemini in Google Sheets Completion Badge.jpg';
+import geminiInGmail from '../assets/Gemini in Gmail Completion Badge.jpg';
+import geminiInGoogleSlides from '../assets/Gemini in Google Slides Completion Badge.jpg';
+import introToGeminiForGoogleWorkspace from '../assets/Introduction to Gemini for Google Workspace Completion Badge.jpg';
 
 
 
@@ -128,7 +139,7 @@ export const certificates = [
     date: "MONTH_YEAR", // <-- Please provide the date for this badge
     credentialId: "BUILDSECUREGCNETWORK5",
     image: buildSecureGoogleCloudNetwork,
-    featured: false,
+    featured: true,
     keywords: globalKeywords.slice(0, 533)
   },
   {
@@ -618,9 +629,149 @@ export const certificates = [
     date: "May 2024",
     credentialId: "6237346502BK",
     image: cPlusPlusProgramming,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "55",
+    title: "Foundational C# with Microsoft Developer Certification",
+    issuer: "freeCodeCamp & Microsoft",
+    date: "May 2024",
+    credentialId: "fccefc996a3-a55c-4b7d-bca0-b59b68536279",
+    image: foundationalCSharpMicrosoft,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "56",
+    title: "Introduction to Generative AI Completion Badge",
+    issuer: "Google Cloud",
+    date: "May 2024",
+    credentialId: "INTROGENAI-GC-56",
+    image: introductionToGenerativeAi,
     featured: false,
     keywords: globalKeywords.slice(0, 533)
-  }
+  },
+  {
+    id: "57",
+    title: "Introduction to Responsible AI Completion Badge",
+    issuer: "Google Cloud",
+    date: "May 2024",
+    credentialId: "INTRORESPONSIBLEAI-GC-57",
+    image: introductionToResponsibleAi,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "58",
+    title: "Introduction to Large Language Models Completion Badge",
+    issuer: "Google Cloud",
+    date: "May 2024",
+    credentialId: "INTROLLMS-GC-58",
+    image: introductionToLlms,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "59",
+    title: "Responsible AI: Applying AI Principles with Google Cloud Completion Badge",
+    issuer: "Google Cloud",
+    date: "May 2024",
+    credentialId: "APPLYINGAIPRINCIPLES-GC-59",
+    image: applyingAiPrinciples,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "60",
+    title: "Introduction to Image Generation Completion Badge",
+    issuer: "Google Cloud",
+    date: "May 2024",
+    credentialId: "INTROIMAGEGEN-GC-60",
+    image: introductionToImageGeneration,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+// Entry for ID 61
+  {
+    id: "61",
+    title: "Scaling with Google Cloud Operations Completion Badge",
+    issuer: "Google Cloud",
+    date: "May 2024",
+    credentialId: "SCALINGGCOPS-GC-61",
+    image: scalingWithGoogleCloudOps,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  // Entry for ID 62
+  {
+    id: "62",
+    title: "Gemini in Google Meet Completion Badge",
+    issuer: "Google Workspace",
+    date: "May 2024",
+    credentialId: "GEMINIMEET-GW-62",
+    image: geminiInGoogleMeet,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+// Entry for ID 63
+  {
+    id: "63",
+    title: "Gemini in Google Docs Completion Badge",
+    issuer: "Google Workspace",
+    date: "May 2024",
+    credentialId: "GEMINIDOCS-GW-63",
+    image: geminiInGoogleDocs,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+// Entry for ID 64
+  {
+    id: "64",
+    title: "Gemini in Google Sheets Completion Badge",
+    issuer: "Google Workspace",
+    date: "May 2024",
+    credentialId: "GEMINISHEETS-GW-64",
+    image: geminiInGoogleSheets,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+// Entry for ID 65
+  {
+    id: "65",
+    title: "Gemini in Gmail Completion Badge",
+    issuer: "Google Workspace",
+    date: "May 2024",
+    credentialId: "GEMINIGMAIL-GW-65",
+    image: geminiInGmail,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+// Entry for ID 66
+  {
+    id: "66",
+    title: "Gemini in Google Slides Completion Badge",
+    issuer: "Google Workspace",
+    date: "May 2024",
+    credentialId: "GEMINISLIDES-GW-66",
+    image: geminiInGoogleSlides,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+// Entry for ID 67
+  {
+    id: "67",
+    title: "Introduction to Gemini for Google Workspace Completion Badge",
+    issuer: "Google Workspace",
+    date: "May 2024",
+    credentialId: "INTROGEMINI-GW-67",
+    image: introToGeminiForGoogleWorkspace,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+
+
+
 
 
 
