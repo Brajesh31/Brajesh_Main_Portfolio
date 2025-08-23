@@ -14,6 +14,17 @@ import freakOMatrixAxis25 from '../assets/Certificate of Participation Freak O M
 import enigmaCybersecurityCtf from '../assets/Certificate of Participation ENIGMA The Cybersecurity CTF.jpg';
 import introductionToModernAi from '../assets/Introduction to Modern AI.jpg';
 import pythonEssentials1 from '../assets/Python Essentials 1.jpg';
+import dataAnalyticsEssentials from '../assets/Data Analytics Essentials.jpg';
+import introductionToDataScience from '../assets/Introduction to Data Science.jpg';
+import dataScienceFoundationsLevel1 from '../assets/Data Science Foundations - Level 1.jpg';
+import dataScienceMethodologies from '../assets/Data Science Methodologies.jpg';
+import pythonForDataScience from '../assets/Python for Data Science.jpg';
+import dataScienceTools from '../assets/Data Science Tools.jpg';
+
+
+
+
+
 
 
 const globalKeywords = [
@@ -173,7 +184,67 @@ export const certificates = [
     date: "March 2025",
     credentialId: "PYTHONESSENTIALS1-14",
     image: pythonEssentials1,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "15",
+    title: "Data Analytics Essentials",
+    issuer: "Cisco Networking Academy",
+    date: "March 2025",
+    credentialId: "DATAANALYTICSESSENTIALS-15",
+    image: dataAnalyticsEssentials,
     featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "16",
+    title: "Introduction to Data Science",
+    issuer: "Cisco Networking Academy",
+    date: "March 2025",
+    credentialId: "INTRODUCTIONTODATASCIENCE-16",
+    image: introductionToDataScience,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "17",
+    title: "Data Science Foundations - Level 1",
+    issuer: "IBM",
+    date: "July 2024",
+    credentialId: "c6f8f4c7-9018-4b8e-b630-96ebb1847301",
+    image: dataScienceFoundationsLevel1,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "18",
+    title: "Data Science Methodologies",
+    issuer: "IBM",
+    date: "July 2024",
+    credentialId: "f53a2321-87ef-4a00-8f3e-189438cd87dd",
+    image: dataScienceMethodologies,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "19",
+    title: "Python for Data Science",
+    issuer: "IBM",
+    date: "May 2024",
+    credentialId: "d1c3bb27-b4b5-4f10-8c9e-01062865b1df",
+    image: pythonForDataScience,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "20",
+    title: "Data Science Tools",
+    issuer: "IBM",
+    date: "July 2024",
+    credentialId: "cba4e940-8457-4e99-984b-56c6cc35f9e3",
+    image: dataScienceTools,
+    featured: true,
     keywords: globalKeywords.slice(0, 533)
   }
 
