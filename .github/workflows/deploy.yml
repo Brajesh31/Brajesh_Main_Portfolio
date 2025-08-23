@@ -19,16 +19,16 @@ jobs:
           node-version: '18'  # Use your Node.js version
 
       - name: Install dependencies
-        run: npm install 
-
-      - name: Sitemap
-        run: npm run sitemap
+        run: npm install --force
 
       - name: fix dependencies
         run:  npm audit fix --force
 
       - name: Run build
         run: npm run build
+
+      - name: Sitemap
+        run: npm run sitemap
 
       - name: Deploy dist folder via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
