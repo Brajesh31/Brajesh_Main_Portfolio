@@ -19,72 +19,72 @@ const globalKeywords = "Python, Java, C, C++, C#, JavaScript, TypeScript, Go, Go
 
 const jobTitles = [
   "AI Engineer",
-  "Full Stack Developer", 
+  "Full Stack Developer",
   "UI/UX Designer",
   "Co-Founder, Tech Dev Club"
 ];
 
 const featuredSkills = [
-  { 
-    name: 'React', 
-    symbol: '⚛️', 
-    color: '#61DAFB', 
+  {
+    name: 'React',
+    symbol: '⚛️',
+    color: '#61DAFB',
     gradient: 'from-blue-400 via-cyan-400 to-blue-500',
     bgPattern: 'radial-gradient(circle at 30% 30%, rgba(97, 218, 251, 0.3) 0%, transparent 50%)',
     description: 'Frontend Library'
   },
-  { 
+  {
     name: 'TypeScript',
-    symbol: 'TS', 
-    color: '#3178C6', 
+    symbol: 'TS',
+    color: '#3178C6',
     gradient: 'from-blue-500 via-blue-600 to-indigo-600',
     bgPattern: 'linear-gradient(135deg, rgba(49, 120, 198, 0.2) 0%, rgba(79, 70, 229, 0.2) 100%)',
     description: 'Type-Safe JS'
   },
-  { 
-    name: 'Node.js', 
-    symbol: '🟢', 
-    color: '#339933', 
+  {
+    name: 'Node.js',
+    symbol: '🟢',
+    color: '#339933',
     gradient: 'from-green-400 via-emerald-500 to-green-600',
     bgPattern: 'radial-gradient(ellipse at 70% 20%, rgba(52, 211, 153, 0.3) 0%, transparent 60%)',
     description: 'Backend Runtime'
   },
-  { 
-    name: 'Python', 
-    symbol: '🐍', 
-    color: '#3776AB', 
+  {
+    name: 'Python',
+    symbol: '🐍',
+    color: '#3776AB',
     gradient: 'from-yellow-400 via-blue-500 to-blue-700',
     bgPattern: 'linear-gradient(45deg, rgba(255, 193, 7, 0.2) 0%, rgba(55, 118, 171, 0.2) 100%)',
     description: 'AI & Backend'
   },
-  { 
-    name: 'Google Cloud', 
-    symbol: '☁️', 
-    color: '#4285F4', 
+  {
+    name: 'Google Cloud',
+    symbol: '☁️',
+    color: '#4285F4',
     gradient: 'from-blue-400 via-sky-500 to-blue-600',
     bgPattern: 'radial-gradient(circle at 50% 50%, rgba(66, 133, 244, 0.2) 0%, rgba(52, 168, 83, 0.1) 100%)',
     description: 'Cloud Platform'
   },
-  { 
-    name: 'Azure', 
-    symbol: '🔷', 
-    color: '#0078D4', 
+  {
+    name: 'Azure',
+    symbol: '🔷',
+    color: '#0078D4',
     gradient: 'from-blue-500 via-blue-600 to-blue-700',
     bgPattern: 'linear-gradient(135deg, rgba(0, 120, 212, 0.3) 0%, rgba(0, 120, 212, 0.1) 100%)',
     description: 'Microsoft Cloud'
   },
-  { 
-    name: 'Firebase', 
-    symbol: '🔥', 
-    color: '#FFCA28', 
+  {
+    name: 'Firebase',
+    symbol: '🔥',
+    color: '#FFCA28',
     gradient: 'from-yellow-400 via-orange-500 to-red-500',
     bgPattern: 'radial-gradient(circle at 40% 60%, rgba(255, 202, 40, 0.3) 0%, rgba(255, 87, 34, 0.2) 100%)',
     description: 'Backend Service'
   },
-  { 
-    name: 'Kong', 
-    symbol: '🦍', 
-    color: '#003459', 
+  {
+    name: 'Kong',
+    symbol: '🦍',
+    color: '#003459',
     gradient: 'from-gray-600 via-slate-700 to-gray-800',
     bgPattern: 'linear-gradient(45deg, rgba(0, 52, 89, 0.3) 0%, rgba(71, 85, 105, 0.2) 100%)',
     description: 'API Gateway'
@@ -106,24 +106,18 @@ const slideVariants = {
   }
 };
 
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 const SkillBall = ({ skill, index }) => {
   const { theme } = useTheme();
-  
+
   return (
     <div className="relative group perspective-1000 flex-shrink-0">
       <motion.div
         initial={{ opacity: 0, y: 50, scale: 0.8 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{ duration: 0.6, delay: index * 0.1, type: "spring", stiffness: 100 }}
-        viewport={{ once: true }}
-        animate={{
-          y: [0, -8, 0],
-          rotateX: [0, 3, 0],
-          rotateY: [0, 5, 0],
-        }}
         transition={{
-          duration: 4,
+          duration: 2.5,
           repeat: Infinity,
           repeatType: "reverse",
           ease: "easeInOut",
@@ -164,7 +158,7 @@ const SkillBall = ({ skill, index }) => {
               transition={{
                 duration: 3,
                 repeat: Infinity,
-                delay: i * 1,
+                delay: i*1.1,
                 ease: "easeInOut"
               }}
               style={{
@@ -191,7 +185,7 @@ const SkillBall = ({ skill, index }) => {
             {skill.symbol}
           </motion.div>
         </div>
-        
+
         {/* Skill name */}
         <div className="text-center z-10">
           <h3 className="text-xs md:text-sm lg:text-base font-bold text-white drop-shadow-lg">
@@ -210,7 +204,7 @@ const SkillBall = ({ skill, index }) => {
         />
 
         {/* Glowing border effect */}
-        <div 
+        <div
           className={`absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300`}
           style={{
             background: `linear-gradient(45deg, ${skill.color}40, transparent, ${skill.color}40)`,
@@ -218,9 +212,9 @@ const SkillBall = ({ skill, index }) => {
           }}
         />
       </motion.div>
-      
+
       {/* Enhanced shadow */}
-      <div 
+      <div
         className={`absolute -bottom-2 left-1/2 -translate-x-1/2 w-4/5 h-6 rounded-full
           bg-gradient-to-r ${skill.gradient} opacity-20 blur-md
           transform-gpu scale-y-50 group-hover:opacity-40 transition-opacity duration-300`}
@@ -308,7 +302,7 @@ const CertificateCard = ({ certificate }) => {
         <p className="text-gray-500 dark:text-gray-500 text-xs mb-4">
           {certificate.date}
         </p>
-        <button 
+        <button
           className="btn btn-primary w-full"
           aria-label={`View certificate: ${certificate.title}`}
         >
@@ -319,6 +313,8 @@ const CertificateCard = ({ certificate }) => {
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 const ProjectCard = ({ project }) => {
   return (
     <motion.div
@@ -342,12 +338,13 @@ const ProjectCard = ({ project }) => {
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2 mb-4">
-          {project.tags.slice(0, 3).map((tag) => (
-            <span key={tag} className="skill-tag text-xs">
-              {tag}
-            </span>
+          {project.tags.slice(0, 3).map((tag: string) => (
+              <span key={tag} className="skill-tag text-xs">
+      {tag}
+    </span>
           ))}
         </div>
+
         <Link 
           to={`/projects`} 
           className="btn btn-primary w-full"
