@@ -24,9 +24,6 @@ jobs:
       - name: fix dependencies
         run:  npm audit fix --force
 
-      - name: Generate Sitemap
-        run: npm run sitemap
-
       - name: Run build
         run: npm run build
 
