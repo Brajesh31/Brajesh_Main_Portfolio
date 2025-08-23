@@ -11,6 +11,22 @@ export default defineConfig({
     Sitemap({
       hostname: 'https://edtech-community.com', // ✅ correct domain
       outDir: 'dist', // output folder
+      urls: [
+        '/',                // Home
+        '/about',
+        '/education',
+        '/experience',
+        '/profiles',
+        '/projects',
+        '/certificates',
+        '/skills',
+        '/services',
+        '/blogs',
+        '/contact',
+        '/milestones',
+      ],
+      changefreq: 'daily',
+      priority: 1.0,
     }),
   ],
 
@@ -26,22 +42,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom', 'react-router-dom'],
-        },
-      },
-    },
-  },
-
-  server: {
-    port: 5173,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:8080',
-        changeOrigin: true,
-        secure: false,
-        configure: (proxy, _options) => {
-          proxy.on('error', (err) => console.log('Proxy error:', err));
-          proxy.on('proxyReq', (proxyReq, req) => console.log('Sending Request:', req.method, req.url));
-          proxy.on('proxyRes', (proxyRes, req) => console.log('Received Response:', proxyRes.statusCode, req.url));
         },
       },
     },
