@@ -34,6 +34,28 @@ import dataScienceMethodologyCognitiveClass from '../assets/Data Science Methodo
 import sqlAndRelationalDatabases101 from '../assets/SQL and Relational Databases 101.jpg';
 import artOfPromptEngineering from '../assets/The Art of Prompt Engineering.jpg';
 import python101ForDataScience from '../assets/Python 101 for Data Science.jpg';
+import problemSolvingBasic from '../assets/Problem Solving Basic.jpg';
+import pythonBasic from '../assets/Python Basic.jpg';
+import pythonBasic37 from '../assets/Python Basic 37.jpg';
+import sqlBasic from '../assets/SQL Basic.jpg';
+import cSharpBasic40 from '../assets/CSharp Basic 40.jpg';
+import sqlIntermediate from '../assets/SQL Intermediate.jpg';
+import javaBasic from '../assets/Java Basic.jpg';
+import buildWithIndiaTop5000 from '../assets/Certificate of Achievement Top 5000 Teams - BuildWithIndia.jpg';
+import codeOfThePhoenixHackathon from '../assets/Certificate of Participation Code of the Phoenix Hackathon.jpg';
+import phantomFlagsCtf from '../assets/Certificate of Participation Phantom Flags CTF.jpg';
+import aptiTechAlgoChamp from '../assets/Certificate of Participation Apti-Tech AlgoChamp Final Round.jpg';
+import quickfireIqContest from '../assets/Certificate of Participation Quickfire IQ Contest Saadhana 2025.jpg';
+import bitcoinForDevelopers1 from '../assets/CS120 Bitcoin for Developers I.jpg';
+import operatingSystems from '../assets/CS401 Operating Systems.jpg';
+import modernDatabaseSystems from '../assets/CS403 Introduction to Modern Database Systems.jpg';
+import introToComputerScience1 from '../assets/CS101 Introduction to Computer Science I.jpg';
+
+
+
+
+
+
 
 
 
@@ -397,7 +419,169 @@ export const certificates = [
     image: python101ForDataScience,
     featured: true,
     keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "35",
+    title: "Problem Solving (Basic)",
+    issuer: "HackerRank",
+    date: "April 2024",
+    credentialId: "896EA653BDBB",
+    image: problemSolvingBasic,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "36",
+    title: "Python (Basic)",
+    issuer: "HackerRank",
+    date: "April 2024",
+    credentialId: "488904D0977F",
+    image: pythonBasic,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "37",
+    title: "Python (Basic)",
+    issuer: "HackerRank",
+    date: "April 2024",
+    credentialId: "488904D0977F",
+    image: pythonBasic37,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "38",
+    title: "SQL (Basic)",
+    issuer: "HackerRank",
+    date: "May 2024",
+    credentialId: "585053E0096C",
+    image: sqlBasic,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "40",
+    title: "C# (Basic)",
+    issuer: "HackerRank",
+    date: "May 2024",
+    credentialId: "87F70FIDC60B",
+    image: cSharpBasic40,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "41",
+    title: "SQL (Intermediate)",
+    issuer: "HackerRank",
+    date: "July 2024",
+    credentialId: "A21FC04FB651",
+    image: sqlIntermediate,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "42",
+    title: "Java (Basic)",
+    issuer: "HackerRank",
+    date: "January 2025",
+    credentialId: "EBOFIE8DAOCF",
+    image: javaBasic,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "43",
+    title: "Certificate of Achievement: Top 5000 Teams - BuildWithIndia",
+    issuer: "HackWithIndia",
+    date: "MONTH_YEAR", // <-- Please provide the date for this certificate
+    credentialId: "BUILDWITHINDIATOP5000-43",
+    image: buildWithIndiaTop5000,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "44",
+    title: "Certificate of Participation: Code of the Phoenix Hackathon (E-Summit '25)",
+    issuer: "E-Cell IIIT-NR",
+    date: "February 2025",
+    credentialId: "CODEOFTHEPHOENIX-ES25-44",
+    image: codeOfThePhoenixHackathon,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "45",
+    title: "Certificate of Participation: Phantom Flags CTF",
+    issuer: "COP-G Foundation",
+    date: "January 2025",
+    credentialId: "SM1-2501288",
+    image: phantomFlagsCtf,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "46",
+    title: "Certificate of Participation: Apti-Tech AlgoChamp (Final Round)",
+    issuer: "Apti-Tech",
+    date: "MONTH_YEAR", // <-- Please provide the date for this certificate
+    credentialId: "APTITECHALGOCHAMP-46",
+    image: aptiTechAlgoChamp,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "47",
+    title: "Certificate of Participation: Quickfire IQ Contest (Saadhana 2025)",
+    issuer: "HAL Management Academy",
+    date: "MONTH 2025", // <-- Please provide the month for this event
+    credentialId: "QUICKFIREIQ-SAADHANA25-47",
+    image: quickfireIqContest,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "48",
+    title: "CS120: Bitcoin for Developers I",
+    issuer: "Saylor Academy",
+    date: "May 2024",
+    credentialId: "0519968002BK",
+    image: bitcoinForDevelopers1,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "49",
+    title: "CS401: Operating Systems",
+    issuer: "Saylor Academy",
+    date: "May 2024",
+    credentialId: "6487200005BK",
+    image: operatingSystems,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "50",
+    title: "CS403: Introduction to Modern Database Systems",
+    issuer: "Saylor Academy",
+    date: "October 2024",
+    credentialId: "7448913119BK",
+    image: modernDatabaseSystems,
+    featured: true,
+    keywords: globalKeywords.slice(0, 533)
+  },
+  {
+    id: "51",
+    title: "CS101: Introduction to Computer Science I",
+    issuer: "Saylor Academy",
+    date: "August 2024",
+    credentialId: "1566973962BK",
+    image: introToComputerScience1,
+    featured: false,
+    keywords: globalKeywords.slice(0, 533)
   }
+
+
 
 
 
