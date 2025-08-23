@@ -91,7 +91,7 @@ const MetaTags: React.FC<MetaTagsProps> = ({
   description = "Portfolio of Brajesh Kumar - AI Engineer, Full Stack Developer, and UI/UX Designer from India. Specializing in React, Python, Machine Learning, and modern web technologies. Available for freelance projects globally.",
   keywords = globalKeywords.join(", "),
   image = "https://brajeshkumar.dev/personal-dark.jpg",
-  url = "https://brajeshkumar.dev/",
+  url = "https://edtech-community.com/",
   type = "website",
   structuredData
 }) => {
