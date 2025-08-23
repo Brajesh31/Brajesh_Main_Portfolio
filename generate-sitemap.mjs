@@ -1,4 +1,4 @@
-// generate-sitemap.js
+// generate-sitemap.mjs
 const fs = require('fs');
 const path = require('path');
 
